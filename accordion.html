@@ -10,6 +10,43 @@
 		<h1>Hello World! </h1>
 		<div class="container">
 			All the content should go here, in class container
+
+			<div class="accordion" id="accordion2">
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+				        Collapsible Group Item #1
+				      </a>
+				    </div>
+				    <div id="collapseOne" class="accordion-body collapse in">
+				      <div class="accordion-inner">
+				        Anim pariatur cliche...
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				        Collapsible Group Item #2
+				      </a>
+				    </div>
+				    <div id="collapseTwo" class="accordion-body collapse">
+				      <div class="accordion-inner">
+				        Anim pariatur cliche...
+				      </div>
+				    </div>
+				  </div>
+			</div>
+
+			<!--Clicking on either this button or the textarea shows 'accordion' effect on second div -->
+			<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+		  		simple collapsible
+			</button>
+ 			
+ 			<textarea data-toggle="collapse" data-target="#demo">something shitty</textarea>
+
+			<div id="demo" class="collapse">Click here when you're gone</div>
+		
 		</div>
 	</body>
 </html>
