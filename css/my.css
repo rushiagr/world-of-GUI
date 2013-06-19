@@ -1,0 +1,7 @@
+.cv-page {
+  -webkit-box-shadow: 5px 5px 35px 5px rgba(10, 10, 10, 0.15);
+  box-shadow: 5px 5px 35px 5px rgba(10, 10, 10, 0.15);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
