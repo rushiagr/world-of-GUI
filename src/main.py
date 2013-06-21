@@ -18,7 +18,10 @@ class SinglePager(object):
         from directories of type /home/user/examples/js, that is,
         only one level deep.
         """
+        if not working_dir.endswith('/'):
+            working_dir += '/'
         file_fullpath = working_dir + html_filename
+
         self.index_soup = BeautifulSoup(open(file_fullpath))
 
         #NOTE(rushiagr): Assumes that all the <link> tags inside <head>
