@@ -7,3 +7,21 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.cv-name {
+  font-size: xx-large;
+  padding-bottom: 0.3em;
+}
+.cv-short-desc {
+  font-size: large;
+  padding-bottom: 0.3em;
+}
+.cv-location {
+  font-size: medium;
+  padding-bottom: 0.3em;
+}
+@media print {
+  .cv-page {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
