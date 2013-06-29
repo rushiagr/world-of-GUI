@@ -19,9 +19,38 @@
   font-size: medium;
   padding-bottom: 0.3em;
 }
+.cv-section {
+  
+}
+.cv-section .heading{
+  font-size: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  background: #DDD;
+}
+.cv-exp-title {
+  float: left;
+  font-weight: bold;
+  padding-right: 0.4em;
+}
+.cv-exp-company {
+  float: left;
+  font-style: italic;
+}
+.cv-exp-timespan {
+  float: right;
+  font-style: italic;
+}
+
+
 @media print {
   .cv-page {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+  }
+  .cv-section .heading {
+    background: #DDD;
+    font-weight: 100;
   }
 }
