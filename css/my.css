@@ -19,8 +19,10 @@
   font-size: medium;
   padding-bottom: 0.3em;
 }
-.cv-section {
-  
+.cv-section-body {
+
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .cv-section .heading{
   font-size: 1.5em;
@@ -46,14 +48,6 @@
 .accordion {
     margin-top: 2px;
     margin-bottom: 0px;
-}
-dd {
-  padding-left: 10px;
-  padding-right: 20px;
-}
-dt {
-  padding-left: 10px;
-  padding-right: 20px;
 }
 /* Overriding default table style.
 Removed padding, removed solid divider, made center aligned */
