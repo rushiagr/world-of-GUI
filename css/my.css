@@ -55,6 +55,18 @@ dt {
   padding-left: 10px;
   padding-right: 20px;
 }
+/* Overriding default table style.
+Removed padding, removed solid divider, made center aligned */
+.table th,
+.table td {
+  padding: 1px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: top;
+  border-top: none;
+}
+
+
 @media print {
   .cv-page {
     -webkit-box-shadow: none !important;
