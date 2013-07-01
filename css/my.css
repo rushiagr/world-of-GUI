@@ -47,7 +47,14 @@
     margin-top: 2px;
     margin-bottom: 0px;
 }
-
+dd {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+dt {
+  padding-left: 10px;
+  padding-right: 20px;
+}
 @media print {
   .cv-page {
     -webkit-box-shadow: none !important;
