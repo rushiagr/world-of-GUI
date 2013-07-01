@@ -9,9 +9,6 @@
    @page {
     margin: 0px auto;
    }
-   #collapseOne {
-    display: none;
-   }
   </style>
   <script src="js/jquery-1.10.1.js"></script>
   <script src="js/bootstrap.js"></script>
@@ -26,20 +23,37 @@
 	<div class="cv-location">NetApp India, Bangalore.</div>
    </div>
 
-   <!--Work experience example-->
-   <div>
+   <!--Title strip-->
 	<div class="cv-section">
 		<div class="heading">Experience</div>
-		<!--<div class="title">Member of Technical Staff</div>-->
-		<!--<div class="company">NetApp</div>-->
-		<!--<div class="timespan">2nd July 2012 - 4th July 2013</div>-->
 	</div>
-   </div>
    
+   <!--Work experience example-->
    <div class="accordion" id="accordion2">
       <div class="accordion-group">
         <div class="accordion-heading">
           <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" data-target="#collapseOne">
+		<div>
+		    <div class="cv-exp-title">Software Development Engineer</div>
+		    <div class="cv-exp-company">Amazon Development Center, Hyderabad</div>
+		    <div class="cv-exp-timespan">July 17th - Present</div>
+		</div>
+		<div><br/>Works in Identity team - Identity management. Works in Identity team - Identity management. Works in Identity team - Identity management. Works in Identity team - Identity management. Works in Identity team - Identity management. </div>
+	  </div>
+        </div>
+        <div id="collapseOne" class="accordion-body collapse">
+          <div class="accordion-inner">
+            <p></p>
+            <div><button class="btn">Java</button><button class="btn">Identity management</button></div>
+          </div>
+        </div>
+      </div>
+   </div>
+
+   <div class="accordion" id="accordion2">
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" data-target="#collapseTwo">
 		<div>
 		    <div class="cv-exp-title">Member of Technical Staff</div>
 		    <div class="cv-exp-company">NetApp India</div>
@@ -48,7 +62,7 @@
 		<div><br/>Contributor in OpenStack Cinder project. Developed Cinder block storage driver for NetApp. Chief implementor of OpenStack shares service project.</div>
 	  </div>
         </div>
-        <div id="collapseOne" class="accordion-body collapse">
+        <div id="collapseTwo" class="accordion-body collapse">
           <div class="accordion-inner">
             <p></p>
             <div><button class="btn">Python</button><button class="btn">OpenStack</button></div>
@@ -56,6 +70,19 @@
         </div>
       </div>
    </div>
+
+   <!--Title strip-->
+	<div class="cv-section">
+		<div class="heading">Projects</div>
+	</div>
+	
+	<div>
+	    <dl>
+	        <dt>Header</dt>
+	        <dd>Footer</dd>
+	    </dl>
+	</div>
+
 
   </div>
  </body>
